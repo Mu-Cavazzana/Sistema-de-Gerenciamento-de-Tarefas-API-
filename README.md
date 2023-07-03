@@ -1,11 +1,11 @@
 # Sistema de Gerenciamento de Tarefas (API)
 
 ## Funcionalidades:
--Criar uma tarefa
--Apagar uma tarefa
--Atualizar uma tarefa
--Obter detalhes de uma tarefa
--Mostrar todas as tarefas
+- Criar uma tarefa
+- Apagar uma tarefa
+- Atualizar uma tarefa
+- Obter detalhes de uma tarefa
+- Mostrar todas as tarefas
 
 ## Todas as tarefas possuem:
 Título;
