@@ -1,9 +1,73 @@
-<p Sistema de Gerenciamento de Tarefas (API) /p>
+# Sistema de Gerenciamento de Tarefas (API)
 
-Funcionalidades:
+## Funcionalidades:
+-Criar uma tarefa
+-Apagar uma tarefa
+-Atualizar uma tarefa
+-Obter detalhes de uma tarefa
+-Mostrar todas as tarefas
+
+## Todas as tarefas possuem:
+Título;
+Descrição;
+Status (Boolean de 'Concluída' e 'Não concluída').
+
+(Todas as respostas da API são geradas em formato JSON.)
 
 
+# Como testar a API
 
+- Listar todas as tarefas:
+    
+    Método: GET
+    
+    URL: http://localhost:8000/api/tasks
+    
+- Obter detalhes de uma tarefa específica:
+    
+    Método: GET
+    
+    URL: [http://localhost:8000/api/tasks/{id}]
+    
+    Substitua {id} pelo ID da tarefa desejada.
+    
+- Criar uma nova tarefa:
+    
+    Método: POST
+    
+    URL: http://localhost:8000/api/tasks
+
+Corpo (em JSON):
+    
+
+```json
+{
+  "title": "Tarefa 1",
+  "description": "Descrição da tarefa 1",
+  "completed": false
+}
+```
+
+- Atualizar os dados de uma tarefa existente:
+- Método: PUT
+- URL: [http://localhost:8000/api/tasks/{id}]
+- Substitua {id} pelo ID da tarefa que deseja atualizar.
+
+Corpo (em JSON):
+
+```json
+{
+  "title": "Tarefa atualizada",
+  "description": "Nova descrição",
+  "completed": true
+}
+
+```
+
+- Excluir uma tarefa:
+- Método: DELETE
+- URL: [http://localhost:8000/api/tasks/{id}]
+- Substitua {id} pelo ID da tarefa que deseja excluir.
 
 
 
