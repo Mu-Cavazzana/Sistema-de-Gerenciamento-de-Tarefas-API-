@@ -8,9 +8,9 @@
 - Mostrar todas as tarefas
 
 ## Todas as tarefas possuem:
-Título;
-Descrição;
-Status (Boolean de 'Concluída' e 'Não concluída').
+- Título;
+- Descrição;
+- Status (Boolean de 'Concluída' e 'Não concluída').
 
 (Todas as respostas da API são geradas em formato JSON.)
 
